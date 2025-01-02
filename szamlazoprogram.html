@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számlázóprogram</title>
+    <script src="szamlazoprogram.js"></script>
+</head>
+<body>
+    <div>
+        <p style="font-size: 22px; text-decoration: underline;">Számlázóprogram</p>
+    </div>
+    <div>
+        <p>Időpont</p>
+        <input id="idopont">
+        <p>SMS</p>
+        <input id="sms">
+        <p>Hívás</p>
+        <input id="hivas">
+    <button onclick="bevitel()">Bevitel</button>    
+    </div>
+
+    <div>
+        <button onclick="szamol()">Számolás</button>
+    </div>
+    <div>
+        <p style="font-size: 22px; text-decoration: underline;">Eredmények</p>
+        <p id="osszesen"></p>
+        <p id="legtobbsms"></p>
+    </div>
+</body>
+</html>
